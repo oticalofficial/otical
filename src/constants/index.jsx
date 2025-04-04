@@ -216,13 +216,13 @@ export const services = [
     icon: <BotMessageSquare />,
     text: "Web Development",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Custom Website Design & Development, E-commerce Solutions, Web Application Development, Responsive Design, Website Maintenance & Support, Specific technologies specialize in (e.g., React, Node.js, Python/Django, etc.)",
   },
   {
     icon: <Fingerprint />,
-    text: "AR VR Applications",
+    text: "AI/ML Solutions",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "AI-Powered Web Applications (e.g., chatbots, personalization), Machine Learning Model Development & Integration, Data Analysis & Insights, Computer Vision Solutions, Natural Language Processing (NLP), Specific AI/ML technologies (e.g., TensorFlow, PyTorch, scikit-learn)",
   },
   {
     icon: <ShieldHalf />,
@@ -265,14 +265,6 @@ export const contactListItems = [
   },
   {
     title: "Social Media",
-    description: "@OticalOfficial",
-  },
-  {
-    title: "Website",
-    description: "otical.in",
-  },
-  {
-    title: "YouTube",
     description: "@OticalOfficial",
   },
 ];

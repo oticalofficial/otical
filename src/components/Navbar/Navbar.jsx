@@ -55,13 +55,13 @@ const Navbar = () => {
             </ul>
             <div className="flex space-x-6">
               <Link to="https://otical.in/" className="py-2 px-3 border rounded-md">
-                Sign In
+                Know More
               </Link>
               <Link
                 to="https://otical.in/"
                 className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
               >
-                Create an account
+                Contact Us
               </Link>
             </div>
           </div>
