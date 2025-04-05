@@ -1,8 +1,8 @@
 # Otical Website using React + Vite
 
-Deployed to Vercel : [https://otical.web.app/](https://otical.vercel.app/)
+Deployed to Vercel : [https://otical.vercel.app/](https://otical.vercel.app/)
 
-Deployed to Firebase Hosting : https://otical.web.app/
+Deployed to Firebase Hosting (Old Version) : https://otical.web.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
