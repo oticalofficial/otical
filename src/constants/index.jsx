@@ -95,33 +95,33 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Web Development",
+    text: "Bespoke Web Development",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Crafting responsive, scalable, and high-performing web applications tailored to your specific business needs.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "AI-Powered Application Development",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Integrating intelligent features like natural language processing, machine learning, and computer vision into your web and mobile applications.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "AI Consulting & Strategy",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Providing expert guidance on identifying opportunities for AI adoption and developing a strategic roadmap for implementation.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Data Science & Analytics",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Unlocking the power of your data through advanced analytics and machine learning to gain actionable insights.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Automation & Workflow Optimization",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Leveraging AI to automate repetitive tasks and optimize business processes for increased efficiency.",
   },
   {
     icon: <GlobeLock />,
@@ -133,24 +133,24 @@ export const features = [
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Build Intelligent Web Experiences",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Create dynamic, user-friendly web applications enhanced with AI-powered features that personalize interactions and drive engagement.",
   },
   {
-    title: "Review code without worry",
+    title: "Develop AI-Driven Solutions",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Design and implement custom AI solutions that automate processes, unlock valuable insights from data, and enable smarter decision-making.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Streamline Development Workflows",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage AI assistance to accelerate development cycles, improve code quality, and free up our team to focus on innovation.",
   },
   {
-    title: "Share work in minutes",
+    title: "Enable Seamless Collaboration",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Build platforms and tools that facilitate efficient teamwork and knowledge sharing, both within our team and with our clients.",
   },
 ];
 

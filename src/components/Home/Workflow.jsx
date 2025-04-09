@@ -4,32 +4,35 @@ import { checklistItems } from "../../constants";
 
 
 const Workflow = () => {
-  return (
-    <div className="mt-20" >
-        <h2 className="text=3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
-        Discover our team, values, and mission driving the future of
-        <span className='bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text'> artificial intelligence</span>
-        </h2>
-        <div className="flex flex-wrap justify-center">
-            <div className="p-2 w-full lg:w-1/2"> 
-                <img src={codeImg} alt="codeImg" />
-            </div>
-            <div className="pt-12 w-full lg:w-1/2">
-            {checklistItems.map((item, index) => (
-                <div key={index} className="flex mb-12">
-                    <div className="text-yellow-600 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
-<CheckCircle2 />
-                    </div>
-                    <div>
-                        <h5 className="mt-1 mb-2 text-xl">{item.title}</h5>
-                        <p className="text-md text-neutral-500">{item.description}</p>
-                    </div>
+    return (
+        <div className="mt-20" >
+            <h2 className="text=3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
+                Powering Innovation:
+                <span className='bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text'> Web & AI Solutions for Tomorrow</span>
+            </h2>
+            <p className='mt-10 mb-5 text-lg text-center text-neutral-500 '>
+                At Otical, we're not just building websites and AI solutions – we're architecting the future of digital experiences. Meet the passionate individuals, the core values that guide us, and the ambitious mission that fuels our journey into the realm of artificial intelligence.
+            </p>
+            <div className="flex flex-wrap justify-center">
+                <div className="p-2 w-full lg:w-1/2">
+                    <img src={codeImg} alt="codeImg" />
                 </div>
-            ))}
+                <div className="pt-12 w-full lg:w-1/2">
+                    {checklistItems.map((item, index) => (
+                        <div key={index} className="flex mb-12">
+                            <div className="text-yellow-600 mx-6 bg-neutral-900 h-10 w-10 p-2 justify-center items-center rounded-full">
+                                <CheckCircle2 />
+                            </div>
+                            <div>
+                                <h5 className="mt-1 mb-2 text-xl">{item.title}</h5>
+                                <p className="text-md text-neutral-500">{item.description}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Workflow;

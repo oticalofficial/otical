@@ -8,15 +8,15 @@ function Contact() {
     <>
       <div className="mt-20">
         <div className="text-center">
-          <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">Contact Us</span>
+          <span className="bg-neutral-900 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">Connect With Us</span>
           <h2 className="text=3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
-            Discover our team, values, and mission driving the future of
+            Let's Build Something Amazing
             <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
               {" "}
-              artificial intelligence
+              Together
             </span>
           </h2>
-          <h5 className="sm:text-xl lg:text-2xl text-center mt-6 tracking-wide">Ready to discuss your project? Contact us today for a free consultation.</h5>
+          <h5 className="sm:text-xl lg:text-2xl text-neutral-500 text-center mt-6 tracking-wide">Ready to discuss your project? Contact us today for a free consultation.</h5>
         </div>
         <ContactForm />
         <div className="flex flex-wrap justify-center">
