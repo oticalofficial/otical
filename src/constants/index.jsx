@@ -33,7 +33,7 @@ import RanakEnergyLogo from "../assets/clientLogo/RanakEnergy.png";
 import RenereLogo from "../assets/clientLogo/Renere.png";
 import SahajSahyogLogo from "../assets/clientLogo/SahajSahyogLogo.png";
 import SiddharthaEarthMoversLogo from "../assets/clientLogo/SiddharthaEarthMovers.png";
-import UdaratvaLogoLogo from "../assets/clientLogo/UdaratvaLogo.png";
+import UdaratvaLogo from "../assets/clientLogo/UdaratvaLogo.png";
 import VertexLogo from "../assets/clientLogo/Vertex.png";
 import VraggerLogo from "../assets/clientLogo/Vragger.png";
 import BookDesignerLogo from '../assets/clientLogo/BookDesigner.png'
@@ -340,7 +340,7 @@ export const recentProjects = [
 
 export const ourClients = [
   {
-    logo: UdaratvaLogoLogo,
+    logo: UdaratvaLogo,
     title: "Udaratva",
     category: "Energy Solutions",
   },
