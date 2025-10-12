@@ -188,7 +188,7 @@ export const pricingOptions = [
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
+  { href: "https://oticaltextutils.web.app/", text: "Otical TextUtils" },
   { href: "#", text: "Documentation" },
   { href: "#", text: "Tutorials" },
   { href: "#", text: "API Reference" },
@@ -461,4 +461,3 @@ export const ourClients = [
   },
 
 ];
-

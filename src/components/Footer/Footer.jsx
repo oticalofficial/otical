@@ -11,6 +11,8 @@ const Footer = () => {
                 <a
                   href={link.href}
                   className="text-neutral-300 hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {link.text}
                 </a>
@@ -26,6 +28,8 @@ const Footer = () => {
                 <a
                   href={link.href}
                   className="text-neutral-300 hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {link.text}
                 </a>
@@ -41,6 +45,8 @@ const Footer = () => {
                 <a
                   href={link.href}
                   className="text-neutral-300 hover:text-white"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {link.text}
                 </a>
