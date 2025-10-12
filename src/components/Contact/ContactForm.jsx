@@ -52,7 +52,7 @@ const ContactForm = () => {
                     "service_tnr0kl7",
                     "template_rud94qm",
                     formData,
-                    "seDc2xcPbGArdrDO_"
+                    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
                 )
                 .then((response) => {
                     toast.success("Message sent successfully");
